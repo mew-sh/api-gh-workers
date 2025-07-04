@@ -1,12 +1,12 @@
 name = "api-gh"
 main = "index.js"
-compatibility_date = "2024-07-04"
+compatibility_date = "2025-07-04"
 compatibility_flags = ["nodejs_compat"]
 
 [env.production]
 name = "api-gh"
 routes = [
-  { pattern = "api.mewsh.cc/*", custom_domain = true }
+  { pattern = "api.mewsh.cc", custom_domain = true }
 ]
 
 [[env.production.vars]]
