@@ -1,0 +1,17 @@
+{
+  "name": "api-gh-workers",
+  "version": "1.0.0",
+  "description": "GitHub API proxy worker for Cloudflare",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler preview"
+  },
+  "keywords": ["cloudflare", "workers", "github", "api", "proxy"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
